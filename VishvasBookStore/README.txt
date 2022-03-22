@@ -34,7 +34,24 @@ Clone the project from GitHub
 Recheck the code as per the ppt
 
 1055
-Everything is correct.. hurryyyy...
+Everything is correct.. hurrayyyy...
 
 1057
 Move to the third part that is Bootstrap
+
+1105
+seting the project with the use of bootstrap
+-Follow the steps like download template from boostrapwatch.com 
+-Select the Yeti template, 
+	download it, 
+	replace it by following information
+	testing, testing, testing...
+
+1117
+As per the following steps everything is good 
+
+1118
+Finishing my step 3 correctly...
+Now time to move on step4..
+
+
