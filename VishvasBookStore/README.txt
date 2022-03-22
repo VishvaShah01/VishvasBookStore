@@ -25,3 +25,16 @@ Let's create a gitHub repo for the assignment..
 
 1123
 Repo created.. now confirm..
+
+2022-03-22
+1045
+Clone the project from GitHub
+
+1050
+Recheck the code as per the ppt
+
+1055
+Everything is correct.. hurryyyy...
+
+1057
+Move to the third part that is Bootstrap
