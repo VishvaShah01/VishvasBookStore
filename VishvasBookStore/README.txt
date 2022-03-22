@@ -54,4 +54,16 @@ As per the following steps everything is good
 Finishing my step 3 correctly...
 Now time to move on step4..
 
+1120
+added the third party js links in the project given by the instructore 
+following steps to use it.
+Modify the code  in the file _Layout.cshtml
+run it ..
+check it...
 
+1125
+Start working on Dropdown menu
+
+1135
+Everything is going good 
+Test it check it.
