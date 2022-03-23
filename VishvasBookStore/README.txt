@@ -42,7 +42,7 @@ Move to the third part that is Bootstrap
 1105
 seting the project with the use of bootstrap
 -Follow the steps like download template from boostrapwatch.com 
--Select the Yeti template, 
+-Select the Darkly template, 
 	download it, 
 	replace it by following information
 	testing, testing, testing...
@@ -67,3 +67,42 @@ Start working on Dropdown menu
 1135
 Everything is going good 
 Test it check it.
+
+1500
+Working on it again
+Start to work from step 4
+Following the steps as per given the instruction..
+Working on it...
+
+1540
+Ohhh noo I got an error.. That i won't be ables to solve..
+
+2022-03-23
+1000
+Started working on my assignment
+Finally I got my error that was I installed a wrong package..
+
+1030
+Let's continue to work on it.
+
+1035
+Working on Areas...
+Everything is going good finally....
+
+1045
+run the code 
+Check it again 
+It works correctly..
+Almost done in my assignment..
+YUppyyyyy..
+
+1100
+Everything is done 
+My Assignment is ready to show...
+
+1240
+Build it
+run it
+check it....
+Now i recheck it and now i'm going to push it.
+
