@@ -140,3 +140,18 @@ Then the new mirgation will be empty
 Update the migration and update the database 
 Everything looks good 
 Run it ... Test it.. Check it...
+
+0300
+Working on assignment 2 
+Create Repository and Irepository as per the following steps
+Working on it 
+Following steps which is the best way to get correct information..
+
+0315
+Everything is perfect.. 
+Build it
+Run it 
+Check it...
+
+0317
+Commit and push 
