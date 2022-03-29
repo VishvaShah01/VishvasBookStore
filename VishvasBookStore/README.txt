@@ -118,3 +118,17 @@ Successfully finished part 1 of Assignment2.
 0115
 Created a new branch for the assignemnet as "StartingOnPasrt2".
 Successfully done.
+
+0140
+Create a migration for DataAccess
+named it "AddDataMigration"
+evrything looks good...
+
+0150
+After creating migration, I di my database update in PM console
+"update-database".
+All tables are correct 
+Everything is good
+Check it 
+run it 
+test test test....
