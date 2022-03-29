@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\**" />
+    <Content Remove="Controllers\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <None Remove="Controllers\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.15" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.14" />
@@ -20,10 +27,6 @@
     <ProjectReference Include="..\VishvasBooks.DataAccess\VishvasBooks.DataAccess.csproj" />
     <ProjectReference Include="..\VishvasBooks.Models\VishvasBooks.Models.csproj" />
     <ProjectReference Include="..\VishvasBooks.Utility\VishvasBooks.Utility.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
