@@ -5,7 +5,7 @@ using System.Text;
 
 namespace VishvasBooks.DataAccess.Repository.IRepository
 {
-    interface ICategoryRepository : IRepository<Category>
+    public interface ICategoryRepository : IRepository<Category>
     {
         void Update(Category category);
     }
