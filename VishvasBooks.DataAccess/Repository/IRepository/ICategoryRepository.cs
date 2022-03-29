@@ -1,10 +1,12 @@
-﻿using System;
+﻿using VishvasBooks.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace VishvasBooks.DataAccess.Repository.IRepository
 {
-    class ICategoryRepository
+    interface ICategoryRepository : IRepository<Category>
     {
+        void Update(Category category);
     }
 }

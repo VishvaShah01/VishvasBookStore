@@ -155,3 +155,16 @@ Check it...
 
 0317
 Commit and push 
+
+0400
+Following the steps on page 6
+Create category.cs and IcategoryRepository.cs 
+Modify the code 
+Check it 
+Run it 
+Test it
+Everything is perfect 
+
+0405
+Next step is commit it
+Push it....
