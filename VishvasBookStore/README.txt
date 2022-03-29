@@ -125,10 +125,18 @@ named it "AddDataMigration"
 evrything looks good...
 
 0150
-After creating migration, I di my database update in PM console
+After creating migration, I did my database update in PM console
 "update-database".
 All tables are correct 
 Everything is good
 Check it 
 run it 
 test test test....
+
+0215
+Added a new table called category in .Models project
+Add a migration via PM console.
+Then the new mirgation will be empty
+Update the migration and update the database 
+Everything looks good 
+Run it ... Test it.. Check it...

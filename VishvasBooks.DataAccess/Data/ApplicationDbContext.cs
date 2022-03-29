@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using VishvasBooks.Models;
 
 namespace VishvasBookStore.DataAccess.Data
 {
@@ -12,5 +13,7 @@ namespace VishvasBookStore.DataAccess.Data
             : base(options)
         {
         }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }
