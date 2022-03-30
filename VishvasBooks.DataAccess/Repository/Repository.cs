@@ -29,8 +29,11 @@ namespace VishvasBooks.DataAccess.Repository
             return dbSet.Find(id);
         }
 
+        
+
         public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null)
         {
+            // throw new NotImplementedException();
             IQueryable<T> query = dbSet;
             if (filter != null)
             {
@@ -49,7 +52,7 @@ namespace VishvasBooks.DataAccess.Repository
             {
                 return orderBy(query).ToList();
             }
-            return query.ToList();      // returns the IEnumerable based on the conditions of the query
+            return query.ToList();
         }
 
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
