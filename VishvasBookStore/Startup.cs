@@ -1,3 +1,5 @@
+using VishvasBooks.DataAccess.Repository;
+using VishvasBooks.DataAccess.Repository.IRepository;
 using VishvasBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -12,7 +14,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using VishvasBooks.DataAccess.Repository;
+using Abp.Domain.Uow;
 
 namespace VishvasBookStore
 {
@@ -35,7 +37,7 @@ namespace VishvasBookStore
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<UnitOfWork, UnitOfWork>();
+            services.AddScoped<VishvasBooks.DataAccess.Repository.IRepository.IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

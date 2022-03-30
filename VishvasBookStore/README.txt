@@ -107,6 +107,7 @@ check it....
 Now i recheck it and now i'm going to push it
 
 2022-03-28
+1800
 Working on assignment 2
 Added Admin area and add view files to display data....
 Everything going good...
@@ -115,16 +116,16 @@ check check check...
 Successfully finished part 1 of Assignment2.
 
 2022-03-29
-0115
+1315
 Created a new branch for the assignemnet as "StartingOnPasrt2".
 Successfully done.
 
-0140
+1340
 Create a migration for DataAccess
 named it "AddDataMigration"
 evrything looks good...
 
-0150
+1350
 After creating migration, I did my database update in PM console
 "update-database".
 All tables are correct 
@@ -133,7 +134,7 @@ Check it
 run it 
 test test test....
 
-0215
+1415
 Added a new table called category in .Models project
 Add a migration via PM console.
 Then the new mirgation will be empty
@@ -141,22 +142,22 @@ Update the migration and update the database
 Everything looks good 
 Run it ... Test it.. Check it...
 
-0300
+1500
 Working on assignment 2 
 Create Repository and Irepository as per the following steps
 Working on it 
 Following steps which is the best way to get correct information..
 
-0315
+1515
 Everything is perfect.. 
 Build it
 Run it 
 Check it...
 
-0317
+1517
 Commit and push 
 
-0400
+1600
 Following the steps on page 6
 Create category.cs and IcategoryRepository.cs 
 Modify the code 
@@ -165,11 +166,11 @@ Run it
 Test it
 Everything is perfect 
 
-0405
+1605
 Next step is commit it
 Push it....
 
-0600
+1800
 Create files named SP_Call and ISP_Call 
 Modify the code 
 Check it 
@@ -178,7 +179,7 @@ Test it
 Everything is perfect ...
 Go ahead after commit and push it...
 
-0630
+1830
 Added two pages UnitOfWork and IUnitOfWOrk in project 
 Modify it
 Build it 
@@ -186,10 +187,31 @@ Change it
 Run it
 Test it.....
 
-0645
+1845
 Commit it
 Pust it
 
-0650
+1850
 Break time ....
 Need Rest:(
+
+2000
+Start working on assignment part 3
+
+2110
+Solve the errors from startup.cs file and CategoryController.cs
+Hard to solve but at the end i did it....
+Build it 
+Run it..
+Check it..
+
+2130
+Added page for displaying Category name 
+Added page in dropdown menu
+Everything looks good as per intruction
+Build it..
+Test it..
+Test it..
+
+Time to commit  it...
+Push it..

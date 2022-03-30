@@ -1,12 +1,12 @@
-﻿using System;
+﻿using VishvasBooks.DataAccess.Repository.IRepository;
+using VishvasBookStore.DataAccess.Data;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using VishvasBooks.DataAccess.Repository.IRepository;
-using VishvasBookStore.DataAccess.Data;
 
 namespace VishvasBooks.DataAccess.Repository
 {
-    public class UnitOfWork
+    public class UnitOfWork : IUnitOfWork            //Public method
     {
         private readonly ApplicationDbContext _db;
 
