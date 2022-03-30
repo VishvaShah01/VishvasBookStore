@@ -215,3 +215,28 @@ Test it..
 
 Time to commit  it...
 Push it..
+
+2022-03-30
+1220
+Everything is done...
+Worked on part 3 and part 4
+Create a file called _CreateAndBackToListButton and _EditAndBackToListButton
+just to display button of create and back to list buttons
+Modify the code 
+Worked on it
+
+1225
+Modify the code on category.js file 
+Added code for delete function..
+
+Clean it..
+Bulid it...
+Run it...
+Test Test Test...
+
+1240
+Commit the code
+Pust it
+
+Finally finished the part 2 of the assignment 2...... :) GoOd NiGhT.......
+
