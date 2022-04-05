@@ -8,14 +8,15 @@ using System.Threading.Tasks;
 
 namespace VishvasBookStore.Areas.Admin.Controllers
 {
-    [Area("Admin")]
     public class CoverTypeController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+
         public CoverTypeController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
+
         public IActionResult Index()
         {
             return View();
@@ -46,7 +47,7 @@ namespace VishvasBookStore.Areas.Admin.Controllers
                 if (coverType.Id == 0)
                 {
                     _unitOfWork.CoverType.Add(coverType);
-                    _unitOfWork.Save();
+                    // _unitOfWork.Save();
                 }
                 else
                 {
@@ -57,10 +58,8 @@ namespace VishvasBookStore.Areas.Admin.Controllers
 
             }
             return View(coverType);
-
         }
 
-        //Api calls
         #region API CALLS
         [HttpGet]
 
@@ -83,7 +82,7 @@ namespace VishvasBookStore.Areas.Admin.Controllers
             _unitOfWork.CoverType.Remove(objFromDb);
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successful" });
-            #endregion
         }
+        #endregion
     }
 }
