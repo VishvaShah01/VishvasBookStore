@@ -255,4 +255,70 @@ Pust..
 Successfully done....
 
 Finally finished the part 2 of the assignment 2...... :) 
+***********************************************************
+
+
+2022-03-30
+1330
+Andrew told me to add the migration timestamp on my READMEv which I totally forgot.....
+Here it is...
+20220329174128_AddDataMigration
+20220329181420_AddCategryToDB
+
+
+******** Part 3 ********
+2022-04-04
+1600
+Clone the gitHub repo in my Visual Studio 19
+Check it once
+Clean it..
+Bulid it..
+Update the databse...
+Run it..
+
+Looks good........
+Let's start to work on part 3
+
+1700
+Follow the steps
+Added CoverType.cs in Models
+Added  CoverTypeRepository,
+		ICoverTypeRepository
+Modify the code in UnitOfWorks.cs and IUnitOfWork.cs
+
+1710
+Added controller as CoverTypeController in Areas/Admin folder
+There are no errors....
+
+I could not create migration 
+Facing problems...
+Huhh it's dinner time ...
+
+2022-04-05
+1400
+Working on it after college
+clone ..check .. run ..
+
+1405
+Migration added....
+Just have to change name ..
+Name of the file :
+		20220405175629_AddCoverType01
+
+1415
+Create a folder called CoverType same as Category 
+Added files Index and Upsert
+
+Modify the file Layout to add dropdown button for cover type
+
+1425
+Clean it...
+Build it...
+Update-database
+Check the output...
+
+Everything is good looks perfect...
+
+Now time to commit it on gitHub....
+
 
