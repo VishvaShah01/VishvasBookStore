@@ -10,8 +10,8 @@ using VishvasBookStore.DataAccess.Data;
 namespace VishvasBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220405175629_AddCoverType01")]
-    partial class AddCoverType01
+    [Migration("20220405195927_AddCoverTypeToDb")]
+    partial class AddCoverTypeToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -2,7 +2,7 @@
 
 namespace VishvasBooks.DataAccess.Migrations
 {
-    public partial class AddCoverType01 : Migration
+    public partial class AddCoverTypeToDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
