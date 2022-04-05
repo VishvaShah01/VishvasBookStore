@@ -256,3 +256,40 @@ Successfully done....
 
 Finally finished the part 2 of the assignment 2...... :) 
 
+2022-03-30
+1330
+Andrew told me to add the migration timestamp on my READMEv which I totally forgot.....
+Here it is...
+20220329174128_AddDataMigration
+20220329181420_AddCategryToDB
+
+
+******** Part 3 ********
+2022-04-04
+1600
+Clone the gitHub repo in my Visual Studio 19
+Check it once
+Clean it..
+Bulid it..
+Update the databse...
+Run it..
+
+Looks good........
+Let's start to work on part 3
+Got an error for migration.
+
+1400
+working on part 3
+
+1405
+Get an error...
+
+1800 
+Finally works 
+Create a new branch called "Final".
+Working on it 
+Create migration now 
+Name of the migration 
+	20220405211907_AddCoverTypeToDb
+
+1830
