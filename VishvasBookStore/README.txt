@@ -296,3 +296,28 @@ Name of the migration
 Added file ICoverTypeController, CoverTypeRepository, ICoverTypeRepository
 Modify the code in IUnitOfWOrk and UnitOfWork
 As well as added data in layout filefor displaying purpose.
+
+1900
+Working on next part that is Product 
+Create a class as Product.cs
+Added data for product database in ApplicationDbContext
+
+1910
+Added migration for product 
+Name of the migration is :
+	20220405222614_addProductToDb
+
+1920
+Creat a class called ProductRepository.cs
+Added data into it.
+
+Created an interface for IProductRepository
+Added data into in it.
+
+modify the code of IUnitOfWork and UnitOfWork.
+
+1930
+Clean ..
+Build,,
+UPdate databse..
+Run.. 
