@@ -8,15 +8,14 @@ using System.Threading.Tasks;
 
 namespace VishvasBookStore.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CoverTypeController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-
         public CoverTypeController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
-
         public IActionResult Index()
         {
             return View();
@@ -24,42 +23,44 @@ namespace VishvasBookStore.Areas.Admin.Controllers
 
         public IActionResult Upsert(int? id)
         {
-            CoverType coverType = new CoverType();
+            CoverType covertype = new CoverType();
             if (id == null)
             {
-                return View(coverType);
+                return View(covertype);
             }
 
-            coverType = _unitOfWork.CoverType.Get(id.GetValueOrDefault());
-            if (coverType == null)
+            covertype = _unitOfWork.CoverType.Get(id.GetValueOrDefault());
+            if (covertype == null)
             {
-                return NotFound(coverType);
+                return NotFound(covertype);
             }
-            return View(coverType);
+            return View(covertype);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(CoverType coverType)
+        public IActionResult Upsert(CoverType covertype)
         {
             if (ModelState.IsValid)
             {
-                if (coverType.Id == 0)
+                if (covertype.Id == 0)
                 {
-                    _unitOfWork.CoverType.Add(coverType);
-                    // _unitOfWork.Save();
+                    _unitOfWork.CoverType.Add(covertype);
+                    _unitOfWork.Save();
                 }
                 else
                 {
-                    _unitOfWork.CoverType.Update(coverType);
+                    _unitOfWork.CoverType.Update(covertype);
                 }
                 _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
 
             }
-            return View(coverType);
+            return View(covertype);
+
         }
 
+        //Api calls
         #region API CALLS
         [HttpGet]
 
@@ -82,7 +83,7 @@ namespace VishvasBookStore.Areas.Admin.Controllers
             _unitOfWork.CoverType.Remove(objFromDb);
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successful" });
+            #endregion
         }
-        #endregion
     }
 }

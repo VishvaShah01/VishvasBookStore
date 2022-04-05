@@ -293,3 +293,6 @@ Name of the migration
 	20220405211907_AddCoverTypeToDb
 
 1830
+Added file ICoverTypeController, CoverTypeRepository, ICoverTypeRepository
+Modify the code in IUnitOfWOrk and UnitOfWork
+As well as added data in layout filefor displaying purpose.
