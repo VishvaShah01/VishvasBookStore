@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace VishvasBooks.Models
 {
-     public class CoverType
+    public class CoverType
     {
         [Key]
         public int Id { get; set; }
-
         [Display(Name = "CoverType Name")]
         [Required]
         [MaxLength(50)]
-
         public string Name { get; set; }
     }
 }

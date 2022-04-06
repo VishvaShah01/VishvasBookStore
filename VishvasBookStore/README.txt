@@ -352,3 +352,9 @@ Clean ...
 Build...
 Run..
 TEST TEST TEST ....
+
+1205
+I did some changes rto display the data 
+But it was not work 
+
+Hence, I finish the part 3 section 2.
