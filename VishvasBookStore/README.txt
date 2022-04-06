@@ -254,7 +254,8 @@ Commit
 Pust..
 Successfully done....
 
-Finally finished the part 2 of the assignment 2...... :) 
+Finally finished the part 2 of the assignment 2...... :)
+****************************************************************************************
 
 2022-03-30
 1330
@@ -264,7 +265,7 @@ Here it is...
 20220329181420_AddCategryToDB
 
 
-******** Part 3 ********
+************************ Part 3 ******************************************
 2022-04-04
 1600
 Clone the gitHub repo in my Visual Studio 19
@@ -283,6 +284,7 @@ working on part 3
 
 1405
 Get an error...
+Do not create database......
 
 1800 
 Finally works 
@@ -321,3 +323,32 @@ Clean ..
 Build,,
 UPdate databse..
 Run.. 
+
+2022-04-06
+0800
+Working on assignement 3
+Section 2
+Create View for Product 
+
+0810 
+Everything is going good..
+Created files called Product.cs and productController.cs
+
+Modify the code as per the instruction...
+
+0815
+Created folder called  "Product" for displaying purpose...
+Created file in the new folder called "Index.cshtml"..
+for this i have to create a javaScrtipt file called "product.js".
+Modify the code in it.
+
+0820
+Added a Dropdown list for produt to display data ..
+in Layout file
+
+0821
+Everything looks good i did not get any error...
+Clean ...
+Build...
+Run..
+TEST TEST TEST ....
