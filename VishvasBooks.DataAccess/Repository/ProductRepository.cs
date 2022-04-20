@@ -1,16 +1,18 @@
 ﻿using VishvasBooks.DataAccess.Repository.IRepository;
 using VishvasBooks.Models;
-using VishvasBookStore.DataAccess.Data;
 using System;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+using VishvasBookStore.DataAccess.Data;
 
 namespace VishvasBooks.DataAccess.Repository
 {
-    class ProductRepository : Repository<Product>, IProductRepository
+    public class ProductRepository : Repository<Product>, IProductRepository
     {
         private readonly ApplicationDbContext _db;
+
         public ProductRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
@@ -21,8 +23,8 @@ namespace VishvasBooks.DataAccess.Repository
             var objFromDb = _db.Products.FirstOrDefault(s => s.Id == product.Id);
             if (objFromDb != null)
             {
-                if(product.ImageUrl != null) 
-                { 
+                if (product.ImageUrl != null)
+                {
                     objFromDb.ImageUrl = product.ImageUrl;
                 }
 
@@ -31,9 +33,11 @@ namespace VishvasBooks.DataAccess.Repository
                 objFromDb.ISBN = product.ISBN;
                 objFromDb.Author = product.Author;
                 objFromDb.ListPrice = product.ListPrice;
+                objFromDb.Price = product.Price;
+                objFromDb.Price50 = product.Price50;
+                objFromDb.Price100 = product.Price100;
                 objFromDb.CategoryId = product.CategoryId;
                 objFromDb.CoverTypeId = product.CoverTypeId;
-                //_db.SaveChanges(); 
             }
         }
     }

@@ -457,4 +457,26 @@ Before that let's commit it Push it........
 I got some changes in the code which are from the product.cs
 I don't know how to change so i just leave it now..... 
 
+2022-04-20
+1000
+I am going to work for that part of the assignment "Price".
+For that I have to add migration with the more filed of product list prices 
+the new timestamp is 
+20220420145154_AddNewProduct
+
+1030
+Now i have to do changes Files from the folder of Product
+And the name of the files are "index", "PUsert" 
+
+1045
+Another changes is that modify the file index in customer folder 
+Now time to check the code..
+
+1055
+Everything is going good
+All done....
+Run it...
+Commint it...
+Push it...
+
 Finally finished the part 4 of the assignment 2...... :)
