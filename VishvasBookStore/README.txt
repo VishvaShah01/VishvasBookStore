@@ -354,7 +354,87 @@ Run..
 TEST TEST TEST ....
 
 1205
-I did some changes rto display the data 
+I did some changes to display the data in Upsert file
 But it was not work 
 
 Hence, I finish the part 3 section 2.
+****************************************************************************************
+
+2022-04-19
+1100
+Start working on assignment 4
+Re-Create a PUsert file to display the data for product insert.
+
+1110
+Create a product.js file to add data into database and diplay it.
+
+1115
+Everything is going good... as of now..
+Run it.. 
+Check it..
+Test it..
+
+
+1130
+UFFFFFF.... I got an error....
+System.InvalidOperationException: 'An error was generated for warning 'Microsoft.EntityFrameworkCore.Query.InvalidIncludePathError': Unable to find navigation ' CoverType' specified in string based include path ' CoverType'. This exception can be suppressed or logged by passing event ID 'CoreEventId.InvalidIncludePathError' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.'
+
+1200
+The solution is: I put space in ProductController.cs file 
+var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType"); just remove the space between Category,CoverType.
+
+1500
+After solving an error i am going to work on the diplaying data 
+I recheck the code from provided gitHub link by lecturer 
+Everything is almost done. 
+
+I reupdate the migration and data stored 
+Everything looks good.
+
+1930
+Added data into product page 
+Data added but the price not !!!
+Hence, it is an error
+
+1935
+I made a mistake!! 
+I wrote price instead of listPrice.. !!
+After checing name from the database i got my mistake....
+
+1940
+Run it.. 
+Check it..
+Test it..
+
+Looks Good
+
+1945
+Here I realized that my imageUrl column shows null 
+But i added image from the product page ..
+Now it's time to verify the code ..
+Let's do it..
+
+2000
+Okay.... Got it
+I have to add code in productController to store image url 
+For that I have to create a folder in wwwroot "images" 
+Inside the "images" folder there will be another folder "products"
+And now add the code in ProductController.
+
+Clean it 
+Build it
+Looks good 
+No errors 
+Run the code...
+
+2004
+Everything is good 
+I checked data stored in database even the url of image as well..
+
+Let's commit it and put it 
+So that i can move forward to the next last part.....
+
+
+
+
+Finally finished the part 2 of the assignment 2...... :)
