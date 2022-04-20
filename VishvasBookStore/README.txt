@@ -453,5 +453,8 @@ Now i have to check it againnnn... UFFFF....
 
 Before that let's commit it Push it........
 
+2030
+I got some changes in the code which are from the product.cs
+I don't know how to change so i just leave it now..... 
 
-Finally finished the part 2 of the assignment 2...... :)
+Finally finished the part 4 of the assignment 2...... :)
